@@ -429,7 +429,7 @@ footer {
   
   }
 
-.sidebar{
+.sidebar1{
     list-style: none;
     text-decoration: none;
     margin: 0;
@@ -471,4 +471,19 @@ footer {
 .wrapper .sidebar .profile p{
     color: rgb(206, 240, 253);
     font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
 }
